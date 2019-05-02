@@ -10,17 +10,34 @@ header  {
     min-width: 320px;
     padding: 5%;
     margin: 0;
-    color: #ffffff;
+    color: #fff;
+
+    @media screen and (min-width:800px){
+        padding-bottom: 100px;
+    }
+}
+
+header img  {
+    @media screen and (min-width:800px){
+        position: absolute;
+        top:1.5em;left:3em;
+    }
 }
 
 header i {
+    display: block;
     color: #fff;
+    padding-top: 50px;
 }
 
 h1  {
     font-size: 30px;
     font-weight: 300;
     text-shadow: 1px 1px 2px #000;
+
+    @media screen and (min-width:800px){
+        font-size: 65px;
+    }
 }
 
 header p   {
@@ -29,11 +46,19 @@ header p   {
     padding: 0px 40px;
     font-size: 14px;
     font-weight: 500;
+
+    @media screen and (min-width:800px){
+        font-size: 22px;
+    }
 }
 
 h3  {
     font-size: 18px;
     font-weight: 400;
+
+    @media screen and (min-width:800px){
+        font-size: 18px;
+    }
 }
 
 form    {
@@ -48,11 +73,55 @@ a   {
 
 footer h3 {
     display: none;
+
+    @media screen and (min-width:800px){
+        display: inline-block;
+        font-size: 30px;
+        padding: 20px;
+        color: rgb(139, 136, 136);
+    }
 }
 
 i   {
     color: #bca64d;
 }
+
+.topnav    {
+    display: none;
+
+    @media screen and (min-width:800px){
+        display: inline;
+        position: absolute;
+        top:2em;right:2em;
+    }
+}
+
+header .fa {
+    color: rgb(139, 136, 136);
+
+    @media screen and (min-width:800px){
+        display: none;
+    }
+}
+
+header a {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 50px;
+}
+
+.active {
+    border: 2px solid #fff;
+}
+
+.corner {
+    position:absolute;
+    top:0em;right:1em;
+  }
+
+.corner i {
+    padding: 10px 10px;
+  }
 
 .form-input {
     padding: 15px;
@@ -62,6 +131,10 @@ i   {
     font-size: 14px;
     font-weight: 300;
     font-style: italic;
+
+    // @media screen and (min-width:800px){
+    //     padding: 15px 10px;
+    // }
 }
 .form-input:nth-child(2) {
     color: #ffffff;
@@ -72,7 +145,7 @@ i   {
 .links  {
     display: flex;
     flex-flow: column;
-    padding: 25px;
+    padding: 75px 25px 15px 25px;
 }
 .social {
     display: flex;
