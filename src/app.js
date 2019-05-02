@@ -1,8 +1,8 @@
 //js/app.js
 import './assets/scss/app.scss';
 
-let happy = 5;
+// let happy = 5;
 
-console.log('Your JS is working' + happy);
+// console.log('Your JS is working' + happy);
 
  
