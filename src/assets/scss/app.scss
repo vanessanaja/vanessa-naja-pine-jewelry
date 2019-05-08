@@ -66,6 +66,11 @@ h3  {
 form    {
     display: flex;
     flex-flow: column;
+
+    @media screen and (min-width:800px){
+        display: inline-block;
+        margin-bottom: 3em;
+    }
 }
 
 a   {
@@ -139,6 +144,10 @@ header a {
     font-weight: 300;
     font-style: italic;
 
+    @media screen and (min-width:800px){
+        padding: 13px 40px;
+    }
+
 }
 .form-input:nth-child(2) {
     color: #ffffff;
@@ -170,6 +179,16 @@ header a {
     flex-direction: row;
     justify-content: space-evenly;
     padding: 50px;
+
+    @media screen and (min-width:800px){
+        display: inline-block;
+    }
+}
+
+.fab    {
+    @media screen and (min-width:800px){
+        padding: 25px;
+    }
 }
 
 #shop   {
