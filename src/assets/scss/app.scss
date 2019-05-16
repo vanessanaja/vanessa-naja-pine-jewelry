@@ -129,13 +129,12 @@ i   {
     @media screen and (min-width:800px){
         padding: 13px 40px;
     }
-
-}
-.form-input:nth-child(2) {
-    color: #ffffff;
-    background-color: rgb(139, 136, 136);
-    font-weight: 600;
-    font-style: normal;
+    &:nth-child(2)   {
+        color: #ffffff;
+        background-color: rgb(139, 136, 136);
+        font-weight: 600;
+        font-style: normal;
+    }
 }
 .links  {
     display: flex;
