@@ -2,7 +2,7 @@ This was an assignment from Codetalk.
 
 We were given a psd for the mobile and desktop version of a 1-page site. Our job was to convert this psd into a working one-page website. 
 
-I used webpack with Sass for this project which was optional.
+I used webpack with Scss for this project which was optional.
 
 The requirement was to complete the header and the footer only and more if we had the time.
 
